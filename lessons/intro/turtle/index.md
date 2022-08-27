@@ -401,6 +401,8 @@ exitonclick()
 
 Už víš, že pomocí `penup` a `pendown` lze nakreslit přerušenou čáru:
 
+{% filter solution %}
+
 ```python
 from turtle import forward, penup, pendown, exitonclick
 
