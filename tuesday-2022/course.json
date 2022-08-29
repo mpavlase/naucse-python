@@ -4,6 +4,10 @@
         3
     ],
     "course": {
+        "default_time": {
+            "end": "20:00",
+            "start": "18:00"
+        },
         "description": "Naučte se Python vážně od začátku. Žádné předchozí znalosti nejsou potřeba.",
         "edit_info": {
             "branch": "beginners-tuesday-2022",
@@ -1416,12 +1420,16 @@
                 "title": "Želva a cykly"
             }
         },
-        "long_description": "<p>Začátečnický kurz PyLadies.</p>\n<p>Stránky samotných PyLadies jsou na <a href=\"http://pyladies.cz/\">http://pyladies.cz</a>.\nOrganizační informace hledej tam.</p>\n<p>Jednotlivé lekce budou určeny naprostým začátečnicím.\nInstrukce jsou uvedeny pro operační systémy Linux, Windows i macOS.</p>\n<p>Materiály jsou dostupné jako text i jako videa se stejným obsahem natočené Petrem Viktorinem.\nVyber si medium, které je ti pohodlnější.</p>",
-        "place": "Brno",
+        "long_description": "<p>Začátečnický kurz PyLadies.</p>\n<p>Stránky samotných PyLadies jsou na <a href=\"https://pyladies.cz/\">https://pyladies.cz</a>.\nOrganizační informace hledej tam.</p>\n<p>Jednotlivé lekce budou určeny naprostým začátečnicím.\nInstrukce jsou uvedeny pro operační systémy Linux, Windows i macOS.</p>\n<p>Materiály jsou dostupné jako text i jako videa se stejným obsahem natočené Petrem Viktorinem.\nVyber si medium, které je ti pohodlnější.</p>",
+        "place": "Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505",
         "sessions": [
             {
                 "date": "2022-09-13",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/cmdline",
                         "title": "Příkazová řádka",
@@ -1448,7 +1456,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1487,24 +1495,31 @@
                         "type": "none-link"
                     },
                     {
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
                         "external_url": "https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf",
                         "title": "Tahák na klávesnici (PDF)",
                         "type": "cheatsheet"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=preparation",
-                        "title": "Úkoly (🧮)",
+                        "title": "Projekty (🧮)",
                         "type": "homework"
                     }
                 ],
-                "serial": "1",
+                "serial": "0",
                 "slug": "preparation",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Instalace"
             },
             {
                 "date": "2022-09-20",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/hello-world",
                         "title": "První program",
@@ -1531,7 +1546,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1560,19 +1575,26 @@
                         "type": "none-link"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=expressions",
-                        "title": "Úkoly (✊✌✋)",
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
+                        "title": "Projekty (✊✌✋)",
                         "type": "homework"
                     }
                 ],
-                "serial": "2",
+                "serial": "1",
                 "slug": "expressions",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Výrazy a podmínky"
             },
             {
                 "date": "2022-09-27",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/functions",
                         "title": "Funkce",
@@ -1604,7 +1626,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1638,24 +1660,31 @@
                         "type": "none-link"
                     },
                     {
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
                         "external_url": "https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf",
                         "title": "Tahák na užitečné funkce (PDF)",
                         "type": "cheatsheet"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=loops",
-                        "title": "Úkol (🐢 🂲🂱)",
+                        "title": "Projekt (🐢 🂲🂱)",
                         "type": "homework"
                     }
                 ],
-                "serial": "3",
+                "serial": "2",
                 "slug": "loops",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Funkce a cykly"
             },
             {
                 "date": "2022-10-04",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/str",
                         "title": "Zápis řetězců",
@@ -1677,7 +1706,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1701,24 +1730,31 @@
                         "type": "none-link"
                     },
                     {
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
                         "external_url": "https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf",
                         "title": "Řetězcový tahák (PDF)",
                         "type": "cheatsheet"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=str",
-                        "title": "Úkol (|‾)",
+                        "title": "Projekt (|‾)",
                         "type": "homework"
                     }
                 ],
-                "serial": "4",
+                "serial": "3",
                 "slug": "str",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Řetězce"
             },
             {
                 "date": "2022-10-11",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/def",
                         "title": "Definice funkcí",
@@ -1745,7 +1781,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1774,24 +1810,31 @@
                         "type": "none-link"
                     },
                     {
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
                         "external_url": "http://pythontutor.com/visualize.html#mode=edit",
                         "title": "Python Tutor",
                         "type": "none-link"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=def",
-                        "title": "Úkol (⚁⚃⚅)",
+                        "title": "Projekt (⚁⚃⚅)",
                         "type": "homework"
                     }
                 ],
-                "serial": "5",
+                "serial": "4",
                 "slug": "def",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Vlastní funkce"
             },
             {
                 "date": "2022-10-18",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/exceptions",
                         "title": "Výjimky",
@@ -1808,7 +1851,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1827,24 +1870,31 @@
                         "type": "none-link"
                     },
                     {
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
                         "external_url": "https://pyvec.github.io/cheatsheets/exceptions/exceptions-cs.pdf",
                         "title": "Výjimkový tahák (PDF)",
                         "type": "cheatsheet"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=exc",
-                        "title": "Úkol (×○×○)",
+                        "title": "Projekt (×○×○)",
                         "type": "homework"
                     }
                 ],
-                "serial": "6",
+                "serial": "5",
                 "slug": "exc",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Chyby a moduly"
             },
             {
                 "date": "2022-10-25",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/interfaces",
                         "title": "Rozhraní",
@@ -1861,7 +1911,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1885,19 +1935,26 @@
                         "type": "none-link"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=test",
-                        "title": "Úkol (✕✕✕)",
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
+                        "title": "Projekt (✕✕✕)",
                         "type": "homework"
                     }
                 ],
-                "serial": "7",
+                "serial": "6",
                 "slug": "test",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Rozhraní a testy"
             },
             {
                 "date": "2022-11-01",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/list",
                         "title": "Seznamy",
@@ -1914,7 +1971,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1933,24 +1990,31 @@
                         "type": "none-link"
                     },
                     {
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
                         "external_url": "https://pyvec.github.io/cheatsheets/lists/lists-cs.pdf",
                         "title": "Tahák na seznamy (PDF)",
                         "type": "cheatsheet"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=list",
-                        "title": "Úkol – [🐶🐱🐰🐍]",
+                        "title": "Projekt – [🐶🐱🐰🐍]",
                         "type": "homework"
                     }
                 ],
-                "serial": "8",
+                "serial": "7",
                 "slug": "list",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Seznamy a n-tice"
             },
             {
                 "date": "2022-11-08",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/range",
                         "title": "Range - sekvence čísel",
@@ -1972,7 +2036,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -1991,19 +2055,26 @@
                         "type": "none-link"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=file",
-                        "title": "Úkol (⚔️)",
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
+                        "title": "Projekt (⚔️)",
                         "type": "homework"
                     }
                 ],
-                "serial": "9",
+                "serial": "8",
                 "slug": "file",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Sekvence a soubory"
             },
             {
                 "date": "2022-11-15",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/dict",
                         "title": "Slovníky",
@@ -2020,7 +2091,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -2039,24 +2110,31 @@
                         "type": "none-link"
                     },
                     {
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
                         "external_url": "https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf",
                         "title": "Slovníkový tahák (PDF)",
                         "type": "cheatsheet"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=dict",
-                        "title": "Úkol (💾)",
+                        "title": "Projekt (💾)",
                         "type": "homework"
                     }
                 ],
-                "serial": "10",
+                "serial": "9",
                 "slug": "dict",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Slovníky"
             },
             {
                 "date": "2022-11-22",
                 "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
+                    },
                     {
                         "lesson_slug": "beginners/class",
                         "title": "Třídy",
@@ -2068,7 +2146,7 @@
                         "type": "lesson"
                     },
                     {
-                        "title": "Videa ke shlednutí",
+                        "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
                     {
@@ -2082,14 +2160,17 @@
                         "type": "none-link"
                     },
                     {
-                        "external_url": "https://projekty.pyladies.cz/session?course=online-2021-spring&session=class",
-                        "title": "Úkol (♟♚)",
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
+                        "title": "Projekt (♟♚)",
                         "type": "homework"
                     }
                 ],
-                "serial": "11",
+                "serial": "10",
                 "slug": "class",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Třídy a dědičnost"
             },
             {
@@ -2101,13 +2182,13 @@
                         "type": "none-link"
                     }
                 ],
-                "serial": "12",
+                "serial": "11",
                 "slug": "end",
-                "source_file": "course.yml",
+                "source_file": "courses/tuesday-2022.yml",
                 "title": "Žolík"
             }
         ],
-        "source_file": "course.yml",
+        "source_file": "courses/tuesday-2022.yml",
         "subtitle": "Brno - podzim 2022 - úterý",
         "time_description": "18:00–20:00",
         "timezone": "Europe/Prague",
