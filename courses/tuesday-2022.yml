@@ -314,6 +314,7 @@ plan:
   - lesson: beginners/range
   - lesson: beginners/zip-enumerate
   - lesson: beginners/files
+  - lesson: beginners/with
 
   - title: Videa ke shlédnutí
     url: null
