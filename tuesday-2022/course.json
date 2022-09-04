@@ -1287,6 +1287,31 @@
                 "static_files": {},
                 "title": "Cyklus While"
             },
+            "beginners/with": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Petr Viktorin, 2014-2021."
+                        ],
+                        "content": {
+                            "path": "with/index.html"
+                        },
+                        "license": "cc-by-sa-40",
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/beginners/with/index.md",
+                        "title": "Kontext: with a finally",
+                        "vars": {
+                            "coach-present": true,
+                            "pyladies": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/beginners/with/info.yml",
+                "static_files": {},
+                "title": "Kontext: with a finally"
+            },
             "beginners/zip-enumerate": {
                 "pages": {
                     "index": {
@@ -1504,6 +1529,7 @@
                         "type": "cheatsheet"
                     },
                     {
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=preparation",
                         "title": "Projekty (🧮)",
                         "type": "homework"
                     }
@@ -1579,6 +1605,7 @@
                         "type": "special"
                     },
                     {
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=expressions",
                         "title": "Projekty (✊✌✋)",
                         "type": "homework"
                     }
@@ -1669,7 +1696,8 @@
                         "type": "cheatsheet"
                     },
                     {
-                        "title": "Projekt (🐢 🂲🂱)",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=loops",
+                        "title": "Projekty (🐢 🂲🂱)",
                         "type": "homework"
                     }
                 ],
@@ -1739,7 +1767,8 @@
                         "type": "cheatsheet"
                     },
                     {
-                        "title": "Projekt (|‾)",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=str",
+                        "title": "Projekty (|‾)",
                         "type": "homework"
                     }
                 ],
@@ -1819,7 +1848,8 @@
                         "type": "none-link"
                     },
                     {
-                        "title": "Projekt (⚁⚃⚅)",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=def",
+                        "title": "Projekty (⚁⚃⚅)",
                         "type": "homework"
                     }
                 ],
@@ -1879,7 +1909,8 @@
                         "type": "cheatsheet"
                     },
                     {
-                        "title": "Projekt (×○×○)",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=exc",
+                        "title": "Projekty (×○×○)",
                         "type": "homework"
                     }
                 ],
@@ -1939,7 +1970,8 @@
                         "type": "special"
                     },
                     {
-                        "title": "Projekt (✕✕✕)",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=test",
+                        "title": "Projekty (✕✕✕)",
                         "type": "homework"
                     }
                 ],
@@ -1999,7 +2031,8 @@
                         "type": "cheatsheet"
                     },
                     {
-                        "title": "Projekt – [🐶🐱🐰🐍]",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=list",
+                        "title": "Projekty – [🐶🐱🐰🐍]",
                         "type": "homework"
                     }
                 ],
@@ -2031,6 +2064,11 @@
                         "type": "lesson"
                     },
                     {
+                        "lesson_slug": "beginners/with",
+                        "title": "Kontext: with a finally",
+                        "type": "lesson"
+                    },
+                    {
                         "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
@@ -2054,7 +2092,8 @@
                         "type": "special"
                     },
                     {
-                        "title": "Projekt (⚔️)",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=file",
+                        "title": "Projekty (⚔️)",
                         "type": "homework"
                     }
                 ],
@@ -2114,7 +2153,8 @@
                         "type": "cheatsheet"
                     },
                     {
-                        "title": "Projekt (💾)",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=dict",
+                        "title": "Projekty (💾)",
                         "type": "homework"
                     }
                 ],
@@ -2159,7 +2199,8 @@
                         "type": "special"
                     },
                     {
-                        "title": "Projekt (♟♚)",
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=class",
+                        "title": "Projekty (♟♚)",
                         "type": "homework"
                     }
                 ],
