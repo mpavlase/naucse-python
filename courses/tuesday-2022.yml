@@ -65,7 +65,7 @@ plan:
     url: https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf
     type: cheatsheet
   - title: 'Projekty (🧮)'
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=preparation
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=preparation
     type: homework
 
 - slug: expressions
@@ -98,7 +98,7 @@ plan:
     url: null
 
   - title: 'Projekty (✊✌✋)'
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=expressions
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=expressions
     type: homework
 
 
@@ -138,8 +138,8 @@ plan:
     url: https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf
     type: cheatsheet
 
-  - title: "Projekt (\U0001f422 \U0001f0b2\U0001f0b1)"
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=loops
+  - title: "Projekty (\U0001f422 \U0001f0b2\U0001f0b1)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=loops
     type: homework
 
 
@@ -172,8 +172,8 @@ plan:
   - title: Řetězcový tahák (PDF)
     url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
     type: cheatsheet
-  - title: "Projekt (|‾)"
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=str
+  - title: "Projekty (|‾)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=str
     type: homework
 
 
@@ -208,8 +208,8 @@ plan:
 
   - title: Python Tutor
     url: http://pythontutor.com/visualize.html#mode=edit
-  - title: "Projekt (⚁⚃⚅)"
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=def
+  - title: "Projekty (⚁⚃⚅)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=def
     type: homework
 
 
@@ -239,8 +239,8 @@ plan:
   - title: Výjimkový tahák (PDF)
     url: https://pyvec.github.io/cheatsheets/exceptions/exceptions-cs.pdf
     type: cheatsheet
-  - title: "Projekt (×○×○)"
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=exc
+  - title: "Projekty (×○×○)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=exc
     type: homework
 
 
@@ -269,8 +269,8 @@ plan:
   - title: Další odkazy
     url: null
 
-  - title: "Projekt (✕✕✕)"
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=test
+  - title: "Projekty (✕✕✕)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=test
     type: homework
 
 
@@ -300,8 +300,8 @@ plan:
   - title: Tahák na seznamy (PDF)
     url: https://pyvec.github.io/cheatsheets/lists/lists-cs.pdf
     type: cheatsheet
-  - title: "Projekt – [\U0001f436\U0001f431\U0001f430\U0001f40d]"
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=list
+  - title: "Projekty – [\U0001f436\U0001f431\U0001f430\U0001f40d]"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=list
     type: homework
 
 
@@ -329,8 +329,8 @@ plan:
   - title: Další odkazy
     url: null
 
-  - title: Projekt (⚔️)
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=file
+  - title: Projekty (⚔️)
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=file
     type: homework
 
 
@@ -360,8 +360,8 @@ plan:
   - title: Slovníkový tahák (PDF)
     url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
     type: cheatsheet
-  - title: "Projekt (💾)"
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=dict
+  - title: "Projekty (💾)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=dict
     type: homework
 
 - slug: class
@@ -384,8 +384,8 @@ plan:
   - title: Další odkazy
     url: null
 
-  - title: "Projekt (♟♚)"
-    # url: https://projekty.pyladies.cz/session?course=online-2021-spring&session=class
+  - title: "Projekty (♟♚)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=class
     type: homework
 
 - slug: end
