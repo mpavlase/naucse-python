@@ -1449,7 +1449,6 @@
         "place": "Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505",
         "sessions": [
             {
-                "date": "2022-09-13",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1473,11 +1472,6 @@
                     {
                         "lesson_slug": "beginners/install-editor",
                         "title": "Instalace editoru",
-                        "type": "lesson"
-                    },
-                    {
-                        "lesson_slug": "beginners/first-steps",
-                        "title": "První příkazy v Pythonu",
                         "type": "lesson"
                     },
                     {
@@ -1515,11 +1509,6 @@
                         "type": "none-link"
                     },
                     {
-                        "external_url": "https://youtu.be/0Poe25XdKIA",
-                        "title": "(7:23) První příkazy v Pythonu – video",
-                        "type": "none-link"
-                    },
-                    {
                         "title": "Další odkazy",
                         "type": "special"
                     },
@@ -1540,11 +1529,16 @@
                 "title": "Instalace"
             },
             {
-                "date": "2022-09-20",
+                "date": "2022-09-13",
                 "materials": [
                     {
                         "title": "Textové materiály",
                         "type": "special"
+                    },
+                    {
+                        "lesson_slug": "beginners/first-steps",
+                        "title": "První krůčky",
+                        "type": "lesson"
                     },
                     {
                         "lesson_slug": "beginners/hello-world",
@@ -1574,6 +1568,11 @@
                     {
                         "title": "Videa ke shlédnutí",
                         "type": "special"
+                    },
+                    {
+                        "external_url": "https://youtu.be/0Poe25XdKIA",
+                        "title": "(7:23) První krůčky – video",
+                        "type": "none-link"
                     },
                     {
                         "external_url": "https://youtu.be/9aJcvOfleFs",
@@ -1616,7 +1615,7 @@
                 "title": "Výrazy a podmínky"
             },
             {
-                "date": "2022-09-27",
+                "date": "2022-09-20",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1707,7 +1706,7 @@
                 "title": "Funkce a cykly"
             },
             {
-                "date": "2022-10-04",
+                "date": "2022-09-27",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1778,7 +1777,7 @@
                 "title": "Řetězce"
             },
             {
-                "date": "2022-10-11",
+                "date": "2022-10-04",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1859,7 +1858,7 @@
                 "title": "Vlastní funkce"
             },
             {
-                "date": "2022-10-18",
+                "date": "2022-10-11",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1920,7 +1919,7 @@
                 "title": "Chyby a moduly"
             },
             {
-                "date": "2022-10-25",
+                "date": "2022-10-18",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1981,7 +1980,7 @@
                 "title": "Rozhraní a testy"
             },
             {
-                "date": "2022-11-01",
+                "date": "2022-10-25",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2042,7 +2041,7 @@
                 "title": "Seznamy a n-tice"
             },
             {
-                "date": "2022-11-08",
+                "date": "2022-11-01",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2103,7 +2102,7 @@
                 "title": "Sekvence a soubory"
             },
             {
-                "date": "2022-11-15",
+                "date": "2022-11-08",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2164,7 +2163,7 @@
                 "title": "Slovníky"
             },
             {
-                "date": "2022-11-22",
+                "date": "2022-11-15",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2210,7 +2209,7 @@
                 "title": "Třídy a dědičnost"
             },
             {
-                "date": "2022-11-29",
+                "date": "2022-11-22",
                 "materials": [
                     {
                         "external_url": "https://www.fi.muni.cz/IB111/sbirka/",
@@ -2219,9 +2218,16 @@
                     }
                 ],
                 "serial": "11",
-                "slug": "end",
+                "slug": "joker",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Žolík"
+            },
+            {
+                "date": "2022-11-29",
+                "serial": "12",
+                "slug": "end",
+                "source_file": "courses/tuesday-2022.yml",
+                "title": "Konec"
             }
         ],
         "source_file": "courses/tuesday-2022.yml",
