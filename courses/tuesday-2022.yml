@@ -28,7 +28,6 @@ vars:
 plan:
 - slug: preparation
   title: 'Instalace'
-  date: 2022-09-13
   serial: 0
   materials:
   - title: Textové materiály
@@ -37,8 +36,6 @@ plan:
   - lesson: beginners/install
   - lesson: beginners/venv-setup
   - lesson: beginners/install-editor
-  - lesson: beginners/first-steps
-    title: První příkazy v Pythonu
 
   - title: Videa ke shlédnutí
     url: null
@@ -55,8 +52,7 @@ plan:
     title: (7:48) Nastavení prostředí – video
   - url: https://youtu.be/JcXUCuneX04
     title: (8:01) Instalace editoru – video
-  - url: https://youtu.be/0Poe25XdKIA
-    title: (7:23) První příkazy v Pythonu – video
+
 
   - title: Další odkazy
     url: null
@@ -70,10 +66,11 @@ plan:
 
 - slug: expressions
   title: 'Výrazy a podmínky'
-  date: 2022-09-20
+  date: 2022-09-13
   materials:
   - title: Textové materiály
     url: null
+  - lesson: beginners/first-steps
   - lesson: beginners/hello-world
   - lesson: beginners/print
   - lesson: beginners/variables
@@ -83,6 +80,8 @@ plan:
   - title: Videa ke shlédnutí
     url: null
 
+  - url: https://youtu.be/0Poe25XdKIA
+    title: (7:23) První krůčky – video
   - url: https://youtu.be/9aJcvOfleFs
     title: (7:50) První program – video
   - url: https://youtu.be/14-LVG9Edng
@@ -104,7 +103,7 @@ plan:
 
 - slug: loops
   title: 'Funkce a cykly'
-  date: 2022-09-27
+  date: 2022-09-20
   materials:
   - title: Textové materiály
     url: null
@@ -145,7 +144,7 @@ plan:
 
 - slug: str
   title: 'Řetězce'
-  date: 2022-10-04
+  date: 2022-09-27
   materials:
   - title: Textové materiály
     url: null
@@ -179,7 +178,7 @@ plan:
 
 - slug: def
   title: 'Vlastní funkce'
-  date: 2022-10-11
+  date: 2022-10-04
   materials:
   - title: Textové materiály
     url: null
@@ -215,7 +214,7 @@ plan:
 
 - slug: exc
   title: 'Chyby a moduly'
-  date: 2022-10-18
+  date: 2022-10-11
   materials:
   - title: Textové materiály
     url: null
@@ -246,7 +245,7 @@ plan:
 
 - slug: test
   title: 'Rozhraní a testy'
-  date: 2022-10-25
+  date: 2022-10-18
   materials:
   - title: Textové materiály
     url: null
@@ -276,7 +275,7 @@ plan:
 
 - slug: list
   title: 'Seznamy a n-tice'
-  date: 2022-11-01
+  date: 2022-10-25
   materials:
   - title: Textové materiály
     url: null
@@ -307,7 +306,7 @@ plan:
 
 - slug: file
   title: 'Sekvence a soubory'
-  date: 2022-11-08
+  date: 2022-11-01
   materials:
   - title: Textové materiály
     url: null
@@ -336,7 +335,7 @@ plan:
 
 - slug: dict
   title: 'Slovníky'
-  date: 2022-11-15
+  date: 2022-11-08
   materials:
   - title: Textové materiály
     url: null
@@ -366,7 +365,7 @@ plan:
 
 - slug: class
   title: 'Třídy a dědičnost'
-  date: 2022-11-22
+  date: 2022-11-15
   materials:
   - title: Textové materiály
     url: null
@@ -388,9 +387,13 @@ plan:
     url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=class
     type: homework
 
-- slug: end
+- slug: joker
   title: 'Žolík'
-  date: 2022-11-29
+  date: 2022-11-22
   materials:
   - title: Odkazy na další materiály
     url: https://www.fi.muni.cz/IB111/sbirka/
+
+- slug: end
+  title: 'Konec'
+  date: 2022-11-29
