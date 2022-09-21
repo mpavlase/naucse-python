@@ -1556,16 +1556,6 @@
                         "type": "lesson"
                     },
                     {
-                        "lesson_slug": "beginners/expressions",
-                        "title": "Vyhodnocování výrazů",
-                        "type": "lesson"
-                    },
-                    {
-                        "lesson_slug": "beginners/comparisons",
-                        "title": "Porovnávání",
-                        "type": "lesson"
-                    },
-                    {
                         "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
@@ -1590,16 +1580,6 @@
                         "type": "none-link"
                     },
                     {
-                        "external_url": "https://youtu.be/nNXDXuN6Smg",
-                        "title": "(8:32) Vyhodnocování výrazů – video",
-                        "type": "none-link"
-                    },
-                    {
-                        "external_url": "https://youtu.be/Q1YJqWzfnck",
-                        "title": "(17:27) Porovnání – video",
-                        "type": "none-link"
-                    },
-                    {
                         "title": "Další odkazy",
                         "type": "special"
                     },
@@ -1612,7 +1592,7 @@
                 "serial": "1",
                 "slug": "expressions",
                 "source_file": "courses/tuesday-2022.yml",
-                "title": "Výrazy a podmínky"
+                "title": "Výrazy"
             },
             {
                 "date": "2022-09-20",
@@ -1620,6 +1600,16 @@
                     {
                         "title": "Textové materiály",
                         "type": "special"
+                    },
+                    {
+                        "lesson_slug": "beginners/expressions",
+                        "title": "Vyhodnocování výrazů",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "beginners/comparisons",
+                        "title": "Porovnávání",
+                        "type": "lesson"
                     },
                     {
                         "lesson_slug": "beginners/functions",
@@ -1630,6 +1620,57 @@
                         "lesson_slug": "beginners/basic-functions",
                         "title": "Užitečné funkce",
                         "type": "lesson"
+                    },
+                    {
+                        "title": "Videa ke shlédnutí",
+                        "type": "special"
+                    },
+                    {
+                        "external_url": "https://youtu.be/nNXDXuN6Smg",
+                        "title": "(8:32) Vyhodnocování výrazů – video",
+                        "type": "none-link"
+                    },
+                    {
+                        "external_url": "https://youtu.be/Q1YJqWzfnck",
+                        "title": "(17:27) Porovnání – video",
+                        "type": "none-link"
+                    },
+                    {
+                        "external_url": "https://youtu.be/w_d8VKS8i48",
+                        "title": "(17:26) Funkce – video",
+                        "type": "none-link"
+                    },
+                    {
+                        "external_url": "https://youtu.be/udEOvGIuZrs",
+                        "title": "(15:51) Užitečné funkce – video",
+                        "type": "none-link"
+                    },
+                    {
+                        "title": "Další odkazy",
+                        "type": "special"
+                    },
+                    {
+                        "external_url": "https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf",
+                        "title": "Tahák na užitečné funkce (PDF)",
+                        "type": "cheatsheet"
+                    },
+                    {
+                        "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=expressions",
+                        "title": "Projekty (✊✌✋)",
+                        "type": "homework"
+                    }
+                ],
+                "serial": "2",
+                "slug": "conditions",
+                "source_file": "courses/tuesday-2022.yml",
+                "title": "Podmínky a funkce"
+            },
+            {
+                "date": "2022-09-27",
+                "materials": [
+                    {
+                        "title": "Textové materiály",
+                        "type": "special"
                     },
                     {
                         "lesson_slug": "intro/turtle",
@@ -1656,16 +1697,6 @@
                         "type": "special"
                     },
                     {
-                        "external_url": "https://youtu.be/w_d8VKS8i48",
-                        "title": "(17:26) Funkce – video",
-                        "type": "none-link"
-                    },
-                    {
-                        "external_url": "https://youtu.be/udEOvGIuZrs",
-                        "title": "(15:51) Užitečné funkce – video",
-                        "type": "none-link"
-                    },
-                    {
                         "external_url": "https://youtu.be/A__45ibnsnc",
                         "title": "(33:02) Želva a cykly – video",
                         "type": "none-link"
@@ -1690,23 +1721,18 @@
                         "type": "special"
                     },
                     {
-                        "external_url": "https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf",
-                        "title": "Tahák na užitečné funkce (PDF)",
-                        "type": "cheatsheet"
-                    },
-                    {
                         "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=loops",
                         "title": "Projekty (🐢 🂲🂱)",
                         "type": "homework"
                     }
                 ],
-                "serial": "2",
+                "serial": "3",
                 "slug": "loops",
                 "source_file": "courses/tuesday-2022.yml",
-                "title": "Funkce a cykly"
+                "title": "Želva a cykly"
             },
             {
-                "date": "2022-09-27",
+                "date": "2022-10-04",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1771,13 +1797,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "3",
+                "serial": "4",
                 "slug": "str",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Řetězce"
             },
             {
-                "date": "2022-10-04",
+                "date": "2022-10-11",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1852,13 +1878,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "4",
+                "serial": "5",
                 "slug": "def",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Vlastní funkce"
             },
             {
-                "date": "2022-10-11",
+                "date": "2022-10-18",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1913,13 +1939,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "5",
+                "serial": "6",
                 "slug": "exc",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Chyby a moduly"
             },
             {
-                "date": "2022-10-18",
+                "date": "2022-10-25",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1974,13 +2000,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "6",
+                "serial": "7",
                 "slug": "test",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Rozhraní a testy"
             },
             {
-                "date": "2022-10-25",
+                "date": "2022-11-01",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2035,13 +2061,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "7",
+                "serial": "8",
                 "slug": "list",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Seznamy a n-tice"
             },
             {
-                "date": "2022-11-01",
+                "date": "2022-11-08",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2096,13 +2122,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "8",
+                "serial": "9",
                 "slug": "file",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Sekvence a soubory"
             },
             {
-                "date": "2022-11-08",
+                "date": "2022-11-15",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2157,13 +2183,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "9",
+                "serial": "10",
                 "slug": "dict",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Slovníky"
             },
             {
-                "date": "2022-11-15",
+                "date": "2022-11-22",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2203,13 +2229,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "10",
+                "serial": "11",
                 "slug": "class",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Třídy a dědičnost"
             },
             {
-                "date": "2022-11-22",
+                "date": "2022-11-29",
                 "materials": [
                     {
                         "external_url": "https://www.fi.muni.cz/IB111/sbirka/",
@@ -2217,17 +2243,10 @@
                         "type": "none-link"
                     }
                 ],
-                "serial": "11",
+                "serial": "12",
                 "slug": "joker",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Žolík"
-            },
-            {
-                "date": "2022-11-29",
-                "serial": "12",
-                "slug": "end",
-                "source_file": "courses/tuesday-2022.yml",
-                "title": "Konec"
             }
         ],
         "source_file": "courses/tuesday-2022.yml",
