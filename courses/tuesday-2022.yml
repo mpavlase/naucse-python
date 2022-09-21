@@ -65,7 +65,7 @@ plan:
     type: homework
 
 - slug: expressions
-  title: 'Výrazy a podmínky'
+  title: 'Výrazy'
   date: 2022-09-13
   materials:
   - title: Textové materiály
@@ -74,8 +74,6 @@ plan:
   - lesson: beginners/hello-world
   - lesson: beginners/print
   - lesson: beginners/variables
-  - lesson: beginners/expressions
-  - lesson: beginners/comparisons
 
   - title: Videa ke shlédnutí
     url: null
@@ -88,10 +86,6 @@ plan:
     title: (12:38) Print a chybové hlášky – video
   - url: https://youtu.be/-zKws24FmCg
     title: (15:08) Proměnné – video
-  - url: https://youtu.be/nNXDXuN6Smg
-    title: (8:32) Vyhodnocování výrazů – video
-  - url: https://youtu.be/Q1YJqWzfnck
-    title: (17:27) Porovnání – video
 
   - title: Další odkazy
     url: null
@@ -100,15 +94,45 @@ plan:
     url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=expressions
     type: homework
 
-
-- slug: loops
-  title: 'Funkce a cykly'
+- slug: conditions
+  title: 'Podmínky a funkce'
   date: 2022-09-20
   materials:
   - title: Textové materiály
     url: null
+  - lesson: beginners/expressions
+  - lesson: beginners/comparisons
   - lesson: beginners/functions
   - lesson: beginners/basic-functions
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/nNXDXuN6Smg
+    title: (8:32) Vyhodnocování výrazů – video
+  - url: https://youtu.be/Q1YJqWzfnck
+    title: (17:27) Porovnání – video
+  - url: https://youtu.be/w_d8VKS8i48
+    title: (17:26) Funkce – video
+  - url: https://youtu.be/udEOvGIuZrs
+    title: (15:51) Užitečné funkce – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Tahák na užitečné funkce (PDF)
+    url: https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf
+    type: cheatsheet
+  - title: 'Projekty (✊✌✋)'
+    url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=expressions
+    type: homework
+
+- slug: loops
+  title: 'Želva a cykly'
+  date: 2022-09-27
+  materials:
+  - title: Textové materiály
+    url: null
   - lesson: intro/turtle
   - lesson: beginners/while
   - lesson: beginners/reassignment
@@ -117,10 +141,6 @@ plan:
   - title: Videa ke shlédnutí
     url: null
 
-  - url: https://youtu.be/w_d8VKS8i48
-    title: (17:26) Funkce – video
-  - url: https://youtu.be/udEOvGIuZrs
-    title: (15:51) Užitečné funkce – video
   - url: https://youtu.be/A__45ibnsnc
     title: (33:02) Želva a cykly – video
   - url: https://youtu.be/I_mkND45dB0
@@ -133,18 +153,13 @@ plan:
   - title: Další odkazy
     url: null
 
-  - title: Tahák na užitečné funkce (PDF)
-    url: https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf
-    type: cheatsheet
-
   - title: "Projekty (\U0001f422 \U0001f0b2\U0001f0b1)"
     url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=loops
     type: homework
 
-
 - slug: str
   title: 'Řetězce'
-  date: 2022-09-27
+  date: 2022-10-04
   materials:
   - title: Textové materiály
     url: null
@@ -178,7 +193,7 @@ plan:
 
 - slug: def
   title: 'Vlastní funkce'
-  date: 2022-10-04
+  date: 2022-10-11
   materials:
   - title: Textové materiály
     url: null
@@ -214,7 +229,7 @@ plan:
 
 - slug: exc
   title: 'Chyby a moduly'
-  date: 2022-10-11
+  date: 2022-10-18
   materials:
   - title: Textové materiály
     url: null
@@ -245,7 +260,7 @@ plan:
 
 - slug: test
   title: 'Rozhraní a testy'
-  date: 2022-10-18
+  date: 2022-10-25
   materials:
   - title: Textové materiály
     url: null
@@ -275,7 +290,7 @@ plan:
 
 - slug: list
   title: 'Seznamy a n-tice'
-  date: 2022-10-25
+  date: 2022-11-01
   materials:
   - title: Textové materiály
     url: null
@@ -306,7 +321,7 @@ plan:
 
 - slug: file
   title: 'Sekvence a soubory'
-  date: 2022-11-01
+  date: 2022-11-08
   materials:
   - title: Textové materiály
     url: null
@@ -335,7 +350,7 @@ plan:
 
 - slug: dict
   title: 'Slovníky'
-  date: 2022-11-08
+  date: 2022-11-15
   materials:
   - title: Textové materiály
     url: null
@@ -365,7 +380,7 @@ plan:
 
 - slug: class
   title: 'Třídy a dědičnost'
-  date: 2022-11-15
+  date: 2022-11-22
   materials:
   - title: Textové materiály
     url: null
@@ -389,11 +404,7 @@ plan:
 
 - slug: joker
   title: 'Žolík'
-  date: 2022-11-22
+  date: 2022-11-29
   materials:
   - title: Odkazy na další materiály
     url: https://www.fi.muni.cz/IB111/sbirka/
-
-- slug: end
-  title: 'Konec'
-  date: 2022-11-29
