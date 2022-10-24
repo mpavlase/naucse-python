@@ -226,10 +226,13 @@ plan:
     url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=def
     type: homework
 
+- slug: opakovani
+  title: 'Opakování'
+  date: 2022-10-18
 
 - slug: exc
   title: 'Chyby a moduly'
-  date: 2022-10-18
+  date: 2022-10-25
   materials:
   - title: Textové materiály
     url: null
@@ -260,7 +263,7 @@ plan:
 
 - slug: test
   title: 'Rozhraní a testy'
-  date: 2022-10-25
+  date: 2022-11-01
   materials:
   - title: Textové materiály
     url: null
@@ -290,7 +293,7 @@ plan:
 
 - slug: list
   title: 'Seznamy a n-tice'
-  date: 2022-11-01
+  date: 2022-11-08
   materials:
   - title: Textové materiály
     url: null
@@ -321,7 +324,7 @@ plan:
 
 - slug: file
   title: 'Sekvence a soubory'
-  date: 2022-11-08
+  date: 2022-11-15
   materials:
   - title: Textové materiály
     url: null
@@ -350,7 +353,7 @@ plan:
 
 - slug: dict
   title: 'Slovníky'
-  date: 2022-11-15
+  date: 2022-11-23
   materials:
   - title: Textové materiály
     url: null
@@ -380,7 +383,7 @@ plan:
 
 - slug: class
   title: 'Třídy a dědičnost'
-  date: 2022-11-22
+  date: 2022-11-29
   materials:
   - title: Textové materiály
     url: null
@@ -401,10 +404,5 @@ plan:
   - title: "Projekty (♟♚)"
     url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=class
     type: homework
-
-- slug: joker
-  title: 'Žolík'
-  date: 2022-11-29
-  materials:
   - title: Odkazy na další materiály
     url: https://www.fi.muni.cz/IB111/sbirka/
