@@ -1885,6 +1885,13 @@
             },
             {
                 "date": "2022-10-18",
+                "serial": "6",
+                "slug": "opakovani",
+                "source_file": "courses/tuesday-2022.yml",
+                "title": "Opakování"
+            },
+            {
+                "date": "2022-10-25",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -1939,13 +1946,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "6",
+                "serial": "7",
                 "slug": "exc",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Chyby a moduly"
             },
             {
-                "date": "2022-10-25",
+                "date": "2022-11-01",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2000,13 +2007,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "7",
+                "serial": "8",
                 "slug": "test",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Rozhraní a testy"
             },
             {
-                "date": "2022-11-01",
+                "date": "2022-11-08",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2061,13 +2068,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "8",
+                "serial": "9",
                 "slug": "list",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Seznamy a n-tice"
             },
             {
-                "date": "2022-11-08",
+                "date": "2022-11-15",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2122,13 +2129,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "9",
+                "serial": "10",
                 "slug": "file",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Sekvence a soubory"
             },
             {
-                "date": "2022-11-15",
+                "date": "2022-11-23",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2183,13 +2190,13 @@
                         "type": "homework"
                     }
                 ],
-                "serial": "10",
+                "serial": "11",
                 "slug": "dict",
                 "source_file": "courses/tuesday-2022.yml",
                 "title": "Slovníky"
             },
             {
-                "date": "2022-11-22",
+                "date": "2022-11-29",
                 "materials": [
                     {
                         "title": "Textové materiály",
@@ -2227,16 +2234,7 @@
                         "external_url": "https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=class",
                         "title": "Projekty (♟♚)",
                         "type": "homework"
-                    }
-                ],
-                "serial": "11",
-                "slug": "class",
-                "source_file": "courses/tuesday-2022.yml",
-                "title": "Třídy a dědičnost"
-            },
-            {
-                "date": "2022-11-29",
-                "materials": [
+                    },
                     {
                         "external_url": "https://www.fi.muni.cz/IB111/sbirka/",
                         "title": "Odkazy na další materiály",
@@ -2244,9 +2242,9 @@
                     }
                 ],
                 "serial": "12",
-                "slug": "joker",
+                "slug": "class",
                 "source_file": "courses/tuesday-2022.yml",
-                "title": "Žolík"
+                "title": "Třídy a dědičnost"
             }
         ],
         "source_file": "courses/tuesday-2022.yml",
