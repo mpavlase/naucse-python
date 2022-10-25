@@ -65,24 +65,7 @@ A dokonce nám to dá vědět – výjimkou, kterou můžeš *zachytit*.
 >   s mezerou na začátku, např. s `' 3'`, ale funkce `isdecimal` takový řetězec
 >   odmítne.
 >
-> Chceš-li zjistit jestli funkce `int` umí daný řetězec převést na číslo,
-> nejlepší je použít přímo funkci `int`.
-
-> [note]
-> Ono „obsahuje_jen_cislice“ v Pythonu existuje. Dokonce několikrát.
-> Místo řešení problému to ale spíš ilustruje, v čem problém spočívá:
-> * Řetězcová metoda `isnumeric` vrací `True` pokud řetězec obsahuje číslice:
->   `'123'.isnumeric()` je pravda; ``'abc'.isnumeric()` nepravda.
->   Problém je, že funkci `int` potřebuje jeden konkrétní druh číslic:
->   pro řetězce jako `'½'` nebo `'௩三๓໓`' (trojka v tamilském, japonském,
->   thajském nebo laoském písmu) platí `isnumeric`, ale `int` si na nich
->   vyláme zuby stejně jako na `'abc'`.
-> * Řetězcová metoda `isdecimal` vrací `True` pokud řetězec obsahuje arabské
->   číslice 0-9. To už je lepší, ale stejně to úplně nesedí: `int` si poradí
->   s mezerou na začátku, např. s `' 3'`. Funkce `isnumeric` takový řetězec
->   odmítne.
->
-> Chceš-li zjistit jestli funkce `int` umí daný řetězec převést na číslo,
+> Chceš-li zjistit, jestli funkce `int` umí daný řetězec převést na číslo,
 > nejlepší je použít přímo funkci `int`.
 
 
@@ -206,7 +189,7 @@ finally:
 
 Občas se stane, že výjimku budeš potřebovat vyvolat {{gnd('sám', 'sama')}}.
 
-Často se to stává když píšeš nějakou obecnou funkci.
+Často se to stává, když píšeš nějakou obecnou funkci.
 Třeba funkci na výpočet obsahu čtverce.
 Co se stane, když někdo zavolá `obsah_ctverce(-5)`?
 
