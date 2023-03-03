@@ -1,5 +1,5 @@
-title: Začátečnický kurz PyLadies
-subtitle: Brno - podzim 2022 - úterý
+title: Začátečnický kurz PyLadies naruby
+subtitle: Brno - jaro 2023 - čtvrtek
 time: 18:00–20:00
 place: Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505
 default_time:
@@ -13,7 +13,7 @@ long_description: |
     Stránky samotných PyLadies jsou na [https://pyladies.cz][PyLadies].
     Organizační informace hledej tam.
 
-    Jednotlivé lekce budou určeny naprostým začátečnicím.
+    Materiály jsou určené naprostým začátačnicím v programování.
     Instrukce jsou uvedeny pro operační systémy Linux, Windows i macOS.
 
     Materiály jsou dostupné jako text i jako videa se stejným obsahem natočené Petrem Viktorinem.
@@ -28,7 +28,7 @@ vars:
 plan:
 - slug: preparation
   title: 'Instalace'
-  serial: 0
+  date: 2023-03-09
   materials:
   - title: Textové materiály
     url: null
@@ -66,7 +66,7 @@ plan:
 
 - slug: expressions
   title: 'Výrazy'
-  date: 2022-09-13
+  date: 2023-03-16
   materials:
   - title: Textové materiály
     url: null
@@ -96,7 +96,7 @@ plan:
 
 - slug: conditions
   title: 'Podmínky a funkce'
-  date: 2022-09-20
+  date: 2023-03-23
   materials:
   - title: Textové materiály
     url: null
@@ -129,7 +129,7 @@ plan:
 
 - slug: loops
   title: 'Želva a cykly'
-  date: 2022-09-27
+  date: 2023-03-30
   materials:
   - title: Textové materiály
     url: null
@@ -159,7 +159,7 @@ plan:
 
 - slug: str
   title: 'Řetězce'
-  date: 2022-10-04
+  date: 2023-04-06
   materials:
   - title: Textové materiály
     url: null
@@ -193,7 +193,7 @@ plan:
 
 - slug: def
   title: 'Vlastní funkce'
-  date: 2022-10-11
+  date: 2023-04-13
   materials:
   - title: Textové materiály
     url: null
@@ -226,13 +226,9 @@ plan:
     url: https://projekty.pyladies.cz/session?course=pyladies-2022-brno-podzim-utery&session=def
     type: homework
 
-- slug: opakovani
-  title: 'Opakování'
-  date: 2022-10-18
-
 - slug: exc
   title: 'Chyby a moduly'
-  date: 2022-10-25
+  date: 2023-04-20
   materials:
   - title: Textové materiály
     url: null
@@ -263,7 +259,7 @@ plan:
 
 - slug: test
   title: 'Rozhraní a testy'
-  date: 2022-11-01
+  date: 2023-04-27
   materials:
   - title: Textové materiály
     url: null
@@ -293,7 +289,7 @@ plan:
 
 - slug: list
   title: 'Seznamy a n-tice'
-  date: 2022-11-08
+  date: 2023-05-04
   materials:
   - title: Textové materiály
     url: null
@@ -324,7 +320,7 @@ plan:
 
 - slug: file
   title: 'Sekvence a soubory'
-  date: 2022-11-15
+  date: 2023-05-11
   materials:
   - title: Textové materiály
     url: null
@@ -353,7 +349,7 @@ plan:
 
 - slug: dict
   title: 'Slovníky'
-  date: 2022-11-23
+  date: 2023-05-18
   materials:
   - title: Textové materiály
     url: null
@@ -383,7 +379,7 @@ plan:
 
 - slug: class
   title: 'Třídy a dědičnost'
-  date: 2022-11-29
+  date: 2023-05-25
   materials:
   - title: Textové materiály
     url: null
