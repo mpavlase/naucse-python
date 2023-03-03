@@ -18,7 +18,7 @@ Procedura může výsledek třeba vypsat na obrazovku:</p>
 
 <span class="n">obsah_elipsy</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
 </pre></div><p>Program takhle funguje, ale přichází o jednu z hlavních výhod funkcí:
-možnost vrácenou hodnotu použít i jinak jež jen v <code>print</code>.</p>
+možnost vrácenou hodnotu použít i jinak než jen v <code>print</code>.</p>
 <p>Funkci, která <em>vrací</em> výsledek, můžeš použít v dalších výpočtech:</p>
 <div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">objem_eliptickeho_valce</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">vyska</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">obsah_elipsy</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">*</span> <span class="n">vyska</span>
@@ -27,10 +27,10 @@ možnost vrácenou hodnotu použít i jinak jež jen v <code>print</code>.</p>
 </pre></div><p>... ale s procedurou, která výsledek přímo vypíše, by to nešlo.
 Proto je dobré psát funkce, které spočítané hodnoty vrací,
 a zpracování výsledku (např. vypsání) nechat na kód mimo funkci.</p>
-<p>Další důvod proč hodnoty spíš vracet než vypisovat je ten, že jedna funkce se
+<p>Další důvod, proč hodnoty spíš vracet než vypisovat je ten, že jedna funkce se
 dá použít v různých situacích.
 Proceduru s <code>print</code> by nešlo rozumně použít tehdy, když nás příkazová
-řádka vůbec nezajímá – třeba v grafické hře, webové aplikaci, nebo pro ovládání
+řádka vůbec nezajímá – třeba v grafické hře, webové aplikaci nebo pro ovládání
 robota.</p>
 <p>Podobně je to se vstupem: když použiju v rámci své funkce <code>input</code>, bude se
 moje funkce dát použít jen v situacích, kdy je u počítače klávesnice a za ní
