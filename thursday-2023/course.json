@@ -1476,6 +1476,11 @@
                         "type": "lesson"
                     },
                     {
+                        "lesson_slug": "beginners/first-steps",
+                        "title": "První krůčky",
+                        "type": "lesson"
+                    },
+                    {
                         "title": "Videa ke shlédnutí",
                         "type": "special"
                     },
@@ -1510,6 +1515,11 @@
                         "type": "none-link"
                     },
                     {
+                        "external_url": "https://youtu.be/0Poe25XdKIA",
+                        "title": "(7:23) První krůčky – video",
+                        "type": "none-link"
+                    },
+                    {
                         "title": "Další odkazy",
                         "type": "special"
                     },
@@ -1537,11 +1547,6 @@
                         "type": "special"
                     },
                     {
-                        "lesson_slug": "beginners/first-steps",
-                        "title": "První krůčky",
-                        "type": "lesson"
-                    },
-                    {
                         "lesson_slug": "beginners/hello-world",
                         "title": "První program",
                         "type": "lesson"
@@ -1559,11 +1564,6 @@
                     {
                         "title": "Videa ke shlédnutí",
                         "type": "special"
-                    },
-                    {
-                        "external_url": "https://youtu.be/0Poe25XdKIA",
-                        "title": "(7:23) První krůčky – video",
-                        "type": "none-link"
                     },
                     {
                         "external_url": "https://youtu.be/9aJcvOfleFs",
