@@ -73,34 +73,25 @@ Vybereš-li editor, klikni na jeho jméno a dostaneš se na instrukce ke stažen
 a nastavení.
 (Na tuhle stránku se pak už nemusíš vracet.)
 
-* [Visual Studio Code]({{ subpage_url('vscode') }}) – doporučený editor pro
-  Windows a macOS (a vhodný i pro Linux).
-  V poslední době je to asi nejpopulárnější editor kódu.
-  Nabízí mnoho funkcí a má velkou základnu uživatelů a vývojářů,
-  takže se neustále vylepšuje.
-
-  V poslední době toho umí víc a víc – a dokonce i věci,
-  které ze začátku trochu překážejí.
-  Neboj se editor přizpůsobit nebo něco vypnout.
+Na Windows a Macu ti chceme v tomto kurzu doporučit editor Kate.
+Nainstaluj si ho z Microsoft Store, alternativně ho můžeš nainstalovat
+přímo ze stránek tvůrců: https://kate-editor.org/get-it/
 
 Na Linuxu budeš mít pravděpodobně už nainstalovaný Gedit nebo Kate.
-Zkus se podívat do systémové nabídky, jestli jeden z nich máš (případně je
-spusť z příkazové řádky jako `gedit`, resp. `kate`).
-Pokud ano, klikni na odkaz níže a editor si nastav.
-Nemáš-li ani jeden, vyber Visual Studio Code (viz výše).
+Zkus se podívat do systémové nabídky, jestli jeden z nich máš
+(případně je spusť z příkazové řádky jako `gedit`, resp. `kate`).
+Nemáš-li ani jeden, nainstaluj si jeden z nich pomocí svého manažera balíčků.
 
+Může to být příkaz:
+- Ubuntu: `sudo apt update && sudo apt install kate`
+- Fedora: `sudo dnf install kate`
+
+Až ho máš budeš mít nainstalovaný, klikni na odkaz níže a editor si nastav.
+
+* [Kate]({{ subpage_url('kate') }}) - doporučený v tomto kurzu, bývá na systémech s prostředím KDE.
 * [Gedit]({{ subpage_url('gedit') }}) – bývá na systémech s prostředím GNOME.
-* [Kate]({{ subpage_url('kate') }}) – bývá na systémech s prostředím KDE.
 
-Existují i jiné editory, na které máme návody
-nebo jsme je doporučovali ve starších verzích těchto materiálů.
-Pokud se jeden z nich rozhodneš použít, neuděláš chybu:
-
-* [Atom]({{ subpage_url('atom') }}) – kvalitní editor s jednoduchým designem
-* [Notepad++]({{ subpage_url('notepad-plus-plus') }}) – nenáročný editor
-  pro Windows vhodný pro pomalejší počítače
-
-Máš-li už svůj oblíbený editor – Vim, Emacs, Geany, apod., použij ten:
+Máš-li už svůj oblíbený editor – Vim, Emacs, Geany, Notepad++, VS Code, apod., použij ten:
 
 * [Ostatní]({{ subpage_url('others') }}) – máš-li jiný editor, zkontroluj
   si že je správně nastaven.
