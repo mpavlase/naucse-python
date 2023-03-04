@@ -36,6 +36,7 @@ plan:
   - lesson: beginners/install
   - lesson: beginners/venv-setup
   - lesson: beginners/install-editor
+  - lesson: beginners/first-steps
 
   - title: Videa ke shlédnutí
     url: null
@@ -52,7 +53,8 @@ plan:
     title: (7:48) Nastavení prostředí – video
   - url: https://youtu.be/JcXUCuneX04
     title: (8:01) Instalace editoru – video
-
+  - url: https://youtu.be/0Poe25XdKIA
+    title: (7:23) První krůčky – video
 
   - title: Další odkazy
     url: null
@@ -70,7 +72,6 @@ plan:
   materials:
   - title: Textové materiály
     url: null
-  - lesson: beginners/first-steps
   - lesson: beginners/hello-world
   - lesson: beginners/print
   - lesson: beginners/variables
@@ -78,8 +79,6 @@ plan:
   - title: Videa ke shlédnutí
     url: null
 
-  - url: https://youtu.be/0Poe25XdKIA
-    title: (7:23) První krůčky – video
   - url: https://youtu.be/9aJcvOfleFs
     title: (7:50) První program – video
   - url: https://youtu.be/14-LVG9Edng
