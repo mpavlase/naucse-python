@@ -1,10 +1,10 @@
 {% set editor_name = 'Gedit' %}
 {% set editor_cmd = 'gedit' %}
 {% set editor_url = 'https://wiki.gnome.org/Apps/Gedit' %}
-{% extends lesson.slug + '/_linux_base.md' %}
+{% set editor_win_url = 'https://download.gnome.org/binaries/win64/gedit/' %}
+{% extends lesson.slug + '/_linux_and_direct_win_base.md' %}
 
 {% block name_gen %} Geditu {% endblock %}
-
 
 {% block setup %}
 
