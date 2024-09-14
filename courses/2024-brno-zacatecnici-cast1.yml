@@ -183,6 +183,8 @@ sessions:
   - title: Řetězcový tahák (PDF)
     url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
     type: cheatsheet
+  - lesson: effective-work-on-pc/text-cursor-moves
+    type: cheatsheet
   - title: 'Projekty (✊✌✋)'
     url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-jaro&session=str
     type: homework
