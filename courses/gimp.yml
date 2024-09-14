@@ -1,0 +1,23 @@
+title: GIMP working
+subtitle: Brno - podzim 2024 - sobota
+time: 9:00–16:00
+place: Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505
+timezone: Europe/Prague
+description: description...
+long_description: |
+    Materiály jsou dostupné jako text i jako videa se stejným obsahem natočené Petrem Viktorinem.
+    Vyber si medium, které je ti pohodlnější.
+
+    [PyLadies]: https://pyladies.cz/
+vars:
+  pyladies: true
+  coach-present: true
+  user-gender: f
+
+sessions:
+- slug: gimp-materials
+  title: 'GIMP'
+  date: 2024-10-12
+  materials:
+  - lesson: gimp/layers
+  - lesson: beginners/cmdline
