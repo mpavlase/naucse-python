@@ -12,3 +12,27 @@ V menu **Upravit** vyber **Předvolby**, dále **Rozhraní**:
 
 Po tomto nastavení by měla aplikace vypadat takto:
 ![Výchozí tmavý vzhled](static/custom-light-interface.png)
+
+
+# Nový obrázek
+Nabídka Soubor:
+* z URL: **Otevřít umístění**
+* screenshot: **Vytvořit - **
+
+
+# Co se naučíme
+Co ukázat:
+* vrstvy
+* maska vrstvy
+* průhlednost
+* kreslící nástroje
+* štětec vs. tužka
+* výběr
+* podle barvy
+* rychlá maska
+* uložit vs. exportovat
+* vrstva vs. plátno
+* jas, kontrast (pomocí křivek)
+* guides
+* filtry - blur
+
