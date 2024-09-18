@@ -20,15 +20,27 @@
                             "path": "layers/index.html"
                         },
                         "ids": [
-                            "co_se_naucime",
+                            "filtry",
+                            "kreslici_nastroje",
                             "nastaveni_gimpu_pouzite_v_tomto_workshopu",
-                            "novy_obrazek"
+                            "novy_obrazek",
+                            "ovladaci_rozhrani",
+                            "ovladani",
+                            "post_processing_barev_jasu_",
+                            "vrstvy",
+                            "vyber_oblasti"
                         ],
                         "license": "cc-by-sa-40",
                         "links": [
-                            "#co_se_naucime",
+                            "#filtry",
+                            "#kreslici_nastroje",
                             "#nastaveni_gimpu_pouzite_v_tomto_workshopu",
                             "#novy_obrazek",
+                            "#ovladaci_rozhrani",
+                            "#ovladani",
+                            "#post_processing_barev_jasu_",
+                            "#vrstvy",
+                            "#vyber_oblasti",
                             "naucse:static?filename=custom-light-interface.png",
                             "naucse:static?filename=initial-dark-interface.png"
                         ],
