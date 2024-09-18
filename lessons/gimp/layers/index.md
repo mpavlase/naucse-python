@@ -19,20 +19,36 @@ Nabídka Soubor:
 * z URL: **Otevřít umístění**
 * screenshot: **Vytvořit - **
 
+## Ovládání
+- vrstva vs. plátno
+- Ctrl + scroll: zoom
+- uložit vs. exportovat
 
-# Co se naučíme
-Co ukázat:
-* vrstvy
-* maska vrstvy
-* průhlednost
-* kreslící nástroje
-* štětec vs. tužka
-* výběr
-* podle barvy
-* rychlá maska
-* uložit vs. exportovat
-* vrstva vs. plátno
+
+## Vrstvy
+- plovoucí
+- rozměry vrsty
+- posun víc vrstev najednou
+- nejde označit a zkopírovat více vrstev najednou
+- průhlednost
+
+## Výběr oblastí
+- výběr ručně, režimy (nahradit, přidat, odebrat, průnik)
+- podle barvy
+- rychlá maska
+- maska vrstvy
+
+
+## Kreslící nástroje
+- štětec vs. tužka
+- šířka stopy
+
+## Post processing barev, jasu, ...
 * jas, kontrast (pomocí křivek)
-* guides
-* filtry - blur
+
+## Ovládací rozhraní
+- guides
+
+## Filtry
+- blur
 
