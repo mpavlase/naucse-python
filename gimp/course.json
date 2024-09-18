@@ -1,0 +1,87 @@
+{
+    "api_version": [
+        0,
+        4
+    ],
+    "course": {
+        "description": "description...",
+        "edit_info": {
+            "branch": "feat/pyworking-gimp",
+            "url": "https://github.com/mpavlase/naucse-python"
+        },
+        "lessons": {
+            "gimp/layers": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
+                        ],
+                        "content": {
+                            "path": "layers/index.html"
+                        },
+                        "ids": [
+                            "co_se_naucime",
+                            "nastaveni_gimpu_pouzite_v_tomto_workshopu",
+                            "novy_obrazek"
+                        ],
+                        "license": "cc-by-sa-40",
+                        "links": [
+                            "#co_se_naucime",
+                            "#nastaveni_gimpu_pouzite_v_tomto_workshopu",
+                            "#novy_obrazek",
+                            "naucse:static?filename=custom-light-interface.png",
+                            "naucse:static?filename=initial-dark-interface.png"
+                        ],
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/gimp/layers/index.md",
+                        "title": "Vrstvy",
+                        "vars": {
+                            "coach-present": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/gimp/layers/info.yml",
+                "static_files": {
+                    "custom-light-interface.png": {
+                        "path": "layers/custom-light-interface.png"
+                    },
+                    "initial-dark-interface.png": {
+                        "path": "layers/initial-dark-interface.png"
+                    },
+                    "screenshot.png": {
+                        "path": "layers/screenshot.png"
+                    }
+                },
+                "title": "Vrstvy"
+            }
+        },
+        "long_description": "<p>GIMP je OpenSource nástroj vhodný pro úpravy a retušování obrázků, fotografií, vytvoříte si v něm třeba i jmenovky ke svatebnímu obědu.</p>\n<p>GIMP toho umí hodně a jeho ovládání může být pro lidi překážkou. Smyslem tohoto workshopu je tuto bariéru prolomit.\nNa příkladech se postupně naučíme používat vrstvy, masky, kouzla kolem výběru oblastí, filtry (rozmazání) a další.</p>\n<p>Vyzkoušíme si například jak:</p>\n<ul>\n<li>zamaskovat citlivé údaje z obrázku (SPZ auta),</li>\n<li>průkazové foto v domácích podmínkách - odstranění pozadí kolem obličeje,</li>\n<li>pokročilé korekce jasu/kontrastu,</li>\n<li>vytvoříme si osobní vánoční přání.</li>\n</ul>",
+        "place": "Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505",
+        "sessions": [
+            {
+                "date": "2024-10-12",
+                "materials": [
+                    {
+                        "lesson_slug": "gimp/layers",
+                        "title": "Vrstvy",
+                        "type": "lesson"
+                    }
+                ],
+                "slug": "materials",
+                "source_file": "courses/gimp.yml",
+                "title": "Materiály"
+            }
+        ],
+        "source_file": "courses/gimp.yml",
+        "subtitle": "Brno - podzim 2024 - sobota",
+        "time_description": "9:00–16:00",
+        "timezone": "Europe/Prague",
+        "title": "PyWorking: GIMP",
+        "vars": {
+            "coach-present": true,
+            "user-gender": "f"
+        }
+    }
+}
