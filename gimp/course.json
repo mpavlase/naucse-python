@@ -4,7 +4,7 @@
         4
     ],
     "course": {
-        "description": "description...",
+        "description": "Naučte se ovládat grafický editor GIMP a jeho fígle.",
         "edit_info": {
             "branch": "feat/pyworking-gimp",
             "url": "https://github.com/mpavlase/naucse-python"
