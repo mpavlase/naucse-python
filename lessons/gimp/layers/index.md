@@ -17,38 +17,57 @@ Po tomto nastavení by měla aplikace vypadat takto:
 # Nový obrázek
 Nabídka Soubor:
 * z URL: **Otevřít umístění**
-* screenshot: **Vytvořit - **
+* screenshot: **Vytvořit - Snímek obrazovky**
+* uložit vs. exportovat
+
+## Obrázek vs. plátno vs. vrstva
+**Obrázek** má rozměry *plátna* a jsou na něm vidět *vrstvy* přeložené přes sebe.
+
+**Vrstvu** si můžeme představit vlastně jako fólie (která může být i průhledná), její rozměry nejsou nijak spjaté s rozměry plátna.
 
 ## Ovládání
-- vrstva vs. plátno
-- Ctrl + scroll: zoom
-- uložit vs. exportovat
+* Ctrl + scroll: zoom
 
 
 ## Vrstvy
-- plovoucí
-- rozměry vrsty
-- posun víc vrstev najednou
-- nejde označit a zkopírovat více vrstev najednou
-- průhlednost
+### plovoucí
+**Ctrl + C** a **Ctrl + V** vytvoří plovoucí vrstvu a s tou je třeba se nejdřív vypořádat.
+
+**Ukotvit** - "zaplácne" výběr do vrstvy níže (prostě tu plochu přebarví) a dál už s tím nic neuděláte
+
+**Vytvořit novou vrstvu** - flexibilnější, protože nezmění zdrojovou vrstvu, je prostě samostatná
+
+* rozměry hranic vrsty
+* posun víc vrstev najednou - symbol řetězu
+* nejde označit a zkopírovat více vrstev najednou (řešením je skupina vrstev)
+* průhlednost, možno ji dodatečně přidat - pravou myší do vrstvy, **Přidat alfa kanál**
+
+Málo důležité:
+* skupiny vrstev
 
 ## Výběr oblastí
-- výběr ručně, režimy (nahradit, přidat, odebrat, průnik)
-- podle barvy
-- rychlá maska
-- maska vrstvy
+* výběr ručně, režimy (nahradit, přidat, odebrat, průnik)
+  * nezapomenout potvrdit výběr pomocí Enter!
+* podle barvy
+* rychlá maska
+* maska vrstvy
 
 
 ## Kreslící nástroje
-- štětec vs. tužka
-- šířka stopy
+* štětec vs. tužka
+* šířka stopy
 
 ## Post processing barev, jasu, ...
 * jas, kontrast (pomocí křivek)
 
 ## Ovládací rozhraní
-- guides
+* guides
 
 ## Filtry
-- blur
+* blur
 
+# Cvičení
+- zamaskovat citlivé údaje z obrázku (SPZ auta),
+- průkazové foto v domácích podmínkách - odstranění pozadí kolem obličeje,
+- pokročilé korekce jasu/kontrastu,
+- vytvoříme si osobní vánoční přání.
