@@ -20,24 +20,30 @@
                             "path": "layers/index.html"
                         },
                         "ids": [
+                            "cviceni",
                             "filtry",
                             "kreslici_nastroje",
                             "nastaveni_gimpu_pouzite_v_tomto_workshopu",
                             "novy_obrazek",
+                            "obrazek_vs_platno_vs_vrstva",
                             "ovladaci_rozhrani",
                             "ovladani",
+                            "plovouci",
                             "post_processing_barev_jasu_",
                             "vrstvy",
                             "vyber_oblasti"
                         ],
                         "license": "cc-by-sa-40",
                         "links": [
+                            "#cviceni",
                             "#filtry",
                             "#kreslici_nastroje",
                             "#nastaveni_gimpu_pouzite_v_tomto_workshopu",
                             "#novy_obrazek",
+                            "#obrazek_vs_platno_vs_vrstva",
                             "#ovladaci_rozhrani",
                             "#ovladani",
+                            "#plovouci",
                             "#post_processing_barev_jasu_",
                             "#vrstvy",
                             "#vyber_oblasti",
@@ -64,20 +70,76 @@
                     },
                     "screenshot.png": {
                         "path": "layers/screenshot.png"
+                    },
+                    "vrstva.png": {
+                        "path": "layers/vrstva.png"
                     }
                 },
                 "title": "Vrstvy"
+            },
+            "gimp/mask-sensitive-data": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
+                        ],
+                        "content": {
+                            "path": "mask-sensitive-data/index.html"
+                        },
+                        "ids": [
+                            "lepe_vyberem_i_podle_barvy",
+                            "maskovani_citlivych_dat",
+                            "nejjednoduseji_vybrat_obdelnik_a_vymazat"
+                        ],
+                        "license": "cc-by-sa-40",
+                        "links": [
+                            "#lepe_vyberem_i_podle_barvy",
+                            "#maskovani_citlivych_dat",
+                            "#nejjednoduseji_vybrat_obdelnik_a_vymazat",
+                            "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Felicia%2BFabia%2BOctavia.jpg",
+                            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/%C5%A0koda_Felicia%2BFabia%2BOctavia.jpg/800px-%C5%A0koda_Felicia%2BFabia%2BOctavia.jpg",
+                            "naucse:static?filename=spz-alfa-klonovani.jpg",
+                            "naucse:static?filename=spz-komplet.jpg",
+                            "naucse:static?filename=spz-nejrychleji.jpg"
+                        ],
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/gimp/mask-sensitive-data/index.md",
+                        "title": "Cvičení: Maskování citlivých dat",
+                        "vars": {
+                            "coach-present": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/gimp/mask-sensitive-data/info.yml",
+                "static_files": {
+                    "spz-alfa-klonovani.jpg": {
+                        "path": "mask-sensitive-data/spz-alfa-klonovani.jpg"
+                    },
+                    "spz-komplet.jpg": {
+                        "path": "mask-sensitive-data/spz-komplet.jpg"
+                    },
+                    "spz-nejrychleji.jpg": {
+                        "path": "mask-sensitive-data/spz-nejrychleji.jpg"
+                    }
+                },
+                "title": "Cvičení: Maskování citlivých dat"
             }
         },
         "long_description": "<p>GIMP je OpenSource nástroj vhodný pro úpravy a retušování obrázků, fotografií, vytvoříte si v něm třeba i jmenovky ke svatebnímu obědu.</p>\n<p>GIMP toho umí hodně a jeho ovládání může být pro lidi překážkou. Smyslem tohoto workshopu je tuto bariéru prolomit.\nNa příkladech se postupně naučíme používat vrstvy, masky, kouzla kolem výběru oblastí, filtry (rozmazání) a další.</p>\n<p>Vyzkoušíme si například jak:</p>\n<ul>\n<li>zamaskovat citlivé údaje z obrázku (SPZ auta),</li>\n<li>průkazové foto v domácích podmínkách - odstranění pozadí kolem obličeje,</li>\n<li>pokročilé korekce jasu/kontrastu,</li>\n<li>vytvoříme si osobní vánoční přání.</li>\n</ul>",
         "place": "Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505",
         "sessions": [
             {
-                "date": "2024-10-12",
                 "materials": [
                     {
                         "lesson_slug": "gimp/layers",
                         "title": "Vrstvy",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "gimp/mask-sensitive-data",
+                        "title": "Cvičení: Maskování citlivých dat",
                         "type": "lesson"
                     }
                 ],
