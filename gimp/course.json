@@ -204,6 +204,7 @@
         "place": "Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505",
         "sessions": [
             {
+                "date": "2024-10-12",
                 "materials": [
                     {
                         "lesson_slug": "gimp/gimp-setup",
