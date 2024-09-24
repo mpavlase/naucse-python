@@ -24,6 +24,7 @@ vars:
 sessions:
 - slug: materials
   title: 'Materiály'
+  date: 2024-10-12
   materials:
   - lesson: gimp/gimp-setup
   - lesson: gimp/toc
