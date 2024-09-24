@@ -3,9 +3,11 @@
 Vyzkoušíme si to na tomto obrázku z Wikimedia: https://commons.wikimedia.org/wiki/File:%C5%A0koda_Felicia%2BFabia%2BOctavia.jpg
 
 Před:
+
 ![Testovací obrázek](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/%C5%A0koda_Felicia%2BFabia%2BOctavia.jpg/800px-%C5%A0koda_Felicia%2BFabia%2BOctavia.jpg)
 
 Po:
+
 ![Lepší postup ](static/spz-komplet.jpg)
 
 ## Nejjednodušeji: Vybrat obdélník a vymazat

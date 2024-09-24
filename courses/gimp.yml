@@ -25,5 +25,7 @@ sessions:
 - slug: materials
   title: 'Materiály'
   materials:
-  - lesson: gimp/layers
+  - lesson: gimp/gimp-setup
+  - lesson: gimp/toc
+  - lesson: gimp/basic-control
   - lesson: gimp/mask-sensitive-data
