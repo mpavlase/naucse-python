@@ -10,72 +10,99 @@
             "url": "https://github.com/mpavlase/naucse-python"
         },
         "lessons": {
-            "gimp/layers": {
+            "gimp/basic-control": {
                 "pages": {
                     "index": {
                         "attribution": [
                             "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
                         ],
                         "content": {
-                            "path": "layers/index.html"
+                            "path": "basic-control/index.html"
                         },
                         "ids": [
-                            "cviceni",
-                            "filtry",
-                            "kreslici_nastroje",
-                            "nastaveni_gimpu_pouzite_v_tomto_workshopu",
-                            "novy_obrazek",
-                            "obrazek_vs_platno_vs_vrstva",
-                            "ovladaci_rozhrani",
-                            "ovladani",
-                            "plovouci",
-                            "post_processing_barev_jasu_",
+                            "nastroje_pro_vyber_oblasti_praci_s_vrstvami",
+                            "rozmery_hranic_platna",
                             "vrstvy",
-                            "vyber_oblasti"
+                            "vyber_patri_pouze_aktualni_vrstve"
                         ],
                         "license": "cc-by-sa-40",
                         "links": [
-                            "#cviceni",
-                            "#filtry",
-                            "#kreslici_nastroje",
-                            "#nastaveni_gimpu_pouzite_v_tomto_workshopu",
-                            "#novy_obrazek",
-                            "#obrazek_vs_platno_vs_vrstva",
-                            "#ovladaci_rozhrani",
-                            "#ovladani",
-                            "#plovouci",
-                            "#post_processing_barev_jasu_",
+                            "#nastroje_pro_vyber_oblasti_praci_s_vrstvami",
+                            "#rozmery_hranic_platna",
                             "#vrstvy",
-                            "#vyber_oblasti",
-                            "naucse:static?filename=custom-light-interface.png",
-                            "naucse:static?filename=initial-dark-interface.png"
+                            "#vyber_patri_pouze_aktualni_vrstve",
+                            "naucse:static?filename=bigger-canvas.png",
+                            "naucse:static?filename=selected-rect-over-multiple-layers.png",
+                            "naucse:static?filename=user-interface.png"
                         ],
                         "slug": "index",
                         "solutions": [],
-                        "source_file": "lessons/gimp/layers/index.md",
-                        "title": "Vrstvy",
+                        "source_file": "lessons/gimp/basic-control/index.md",
+                        "title": "Výběry oblastí, vrstvy",
                         "vars": {
                             "coach-present": true,
                             "user-gender": "f"
                         }
                     }
                 },
-                "source_file": "lessons/gimp/layers/info.yml",
+                "source_file": "lessons/gimp/basic-control/info.yml",
                 "static_files": {
-                    "custom-light-interface.png": {
-                        "path": "layers/custom-light-interface.png"
+                    "bigger-canvas.png": {
+                        "path": "basic-control/bigger-canvas.png"
                     },
-                    "initial-dark-interface.png": {
-                        "path": "layers/initial-dark-interface.png"
+                    "selected-rect-over-multiple-layers.png": {
+                        "path": "basic-control/selected-rect-over-multiple-layers.png"
                     },
-                    "screenshot.png": {
-                        "path": "layers/screenshot.png"
-                    },
-                    "vrstva.png": {
-                        "path": "layers/vrstva.png"
+                    "user-interface.png": {
+                        "path": "basic-control/user-interface.png"
                     }
                 },
-                "title": "Vrstvy"
+                "title": "Výběry oblastí, vrstvy"
+            },
+            "gimp/gimp-setup": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
+                        ],
+                        "content": {
+                            "path": "gimp-setup/index.html"
+                        },
+                        "ids": [
+                            "nastaveni_gimpu_pouzite_v_tomto_workshopu"
+                        ],
+                        "license": "cc-by-sa-40",
+                        "links": [
+                            "#nastaveni_gimpu_pouzite_v_tomto_workshopu",
+                            "naucse:static?filename=custom-light-interface.png",
+                            "naucse:static?filename=initial-dark-interface.png"
+                        ],
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/gimp/gimp-setup/index.md",
+                        "title": "Nastavení GIMPu po instalaci",
+                        "vars": {
+                            "coach-present": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/gimp/gimp-setup/info.yml",
+                "static_files": {
+                    "custom-light-interface.png": {
+                        "path": "gimp-setup/custom-light-interface.png"
+                    },
+                    "initial-dark-interface.png": {
+                        "path": "gimp-setup/initial-dark-interface.png"
+                    },
+                    "screenshot.png": {
+                        "path": "gimp-setup/screenshot.png"
+                    },
+                    "vrstva.png": {
+                        "path": "gimp-setup/vrstva.png"
+                    }
+                },
+                "title": "Nastavení GIMPu po instalaci"
             },
             "gimp/mask-sensitive-data": {
                 "pages": {
@@ -125,6 +152,52 @@
                     }
                 },
                 "title": "Cvičení: Maskování citlivých dat"
+            },
+            "gimp/toc": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
+                        ],
+                        "content": {
+                            "path": "toc/index.html"
+                        },
+                        "ids": [
+                            "cviceni",
+                            "filtry",
+                            "kreslici_nastroje",
+                            "novy_obrazek",
+                            "ovladaci_rozhrani",
+                            "ovladani",
+                            "post_processing_barev_jasu_",
+                            "vrstvy",
+                            "vyber_oblasti"
+                        ],
+                        "license": "cc-by-sa-40",
+                        "links": [
+                            "#cviceni",
+                            "#filtry",
+                            "#kreslici_nastroje",
+                            "#novy_obrazek",
+                            "#ovladaci_rozhrani",
+                            "#ovladani",
+                            "#post_processing_barev_jasu_",
+                            "#vrstvy",
+                            "#vyber_oblasti"
+                        ],
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/gimp/toc/index.md",
+                        "title": "Obsah workshopu",
+                        "vars": {
+                            "coach-present": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/gimp/toc/info.yml",
+                "static_files": {},
+                "title": "Obsah workshopu"
             }
         },
         "long_description": "<p>GIMP je OpenSource nástroj vhodný pro úpravy a retušování obrázků, fotografií, vytvoříte si v něm třeba i jmenovky ke svatebnímu obědu.</p>\n<p>GIMP toho umí hodně a jeho ovládání může být pro lidi překážkou. Smyslem tohoto workshopu je tuto bariéru prolomit.\nNa příkladech se postupně naučíme používat vrstvy, masky, kouzla kolem výběru oblastí, filtry (rozmazání) a další.</p>\n<p>Vyzkoušíme si například jak:</p>\n<ul>\n<li>zamaskovat citlivé údaje z obrázku (SPZ auta),</li>\n<li>průkazové foto v domácích podmínkách - odstranění pozadí kolem obličeje,</li>\n<li>pokročilé korekce jasu/kontrastu,</li>\n<li>vytvoříme si osobní vánoční přání.</li>\n</ul>",
@@ -133,8 +206,18 @@
             {
                 "materials": [
                     {
-                        "lesson_slug": "gimp/layers",
-                        "title": "Vrstvy",
+                        "lesson_slug": "gimp/gimp-setup",
+                        "title": "Nastavení GIMPu po instalaci",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "gimp/toc",
+                        "title": "Obsah workshopu",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "gimp/basic-control",
+                        "title": "Výběry oblastí, vrstvy",
                         "type": "lesson"
                     },
                     {
