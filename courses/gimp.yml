@@ -24,9 +24,10 @@ vars:
 sessions:
 - slug: materials
   title: 'Materiály'
-  date: 2024-10-12
   materials:
   - lesson: gimp/gimp-setup
   - lesson: gimp/toc
   - lesson: gimp/basic-control
+  - lesson: gimp/select-area-example
   - lesson: gimp/mask-sensitive-data
+  - lesson: gimp/id-portrait-example
