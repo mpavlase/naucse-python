@@ -38,7 +38,7 @@
                         "slug": "index",
                         "solutions": [],
                         "source_file": "lessons/gimp/basic-control/index.md",
-                        "title": "Výběry oblastí, vrstvy",
+                        "title": "Seznámení s výběry oblastí, vrstvami",
                         "vars": {
                             "coach-present": true,
                             "user-gender": "f"
@@ -57,7 +57,7 @@
                         "path": "basic-control/user-interface.png"
                     }
                 },
-                "title": "Výběry oblastí, vrstvy"
+                "title": "Seznámení s výběry oblastí, vrstvami"
             },
             "gimp/gimp-setup": {
                 "pages": {
@@ -103,6 +103,75 @@
                     }
                 },
                 "title": "Nastavení GIMPu po instalaci"
+            },
+            "gimp/id-portrait-example": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
+                        ],
+                        "content": {
+                            "path": "id-portrait-example/index.html"
+                        },
+                        "ids": [
+                            "odstraneni_pozadi_pomoci_masky_vrstvy",
+                            "orez",
+                            "pridavame_nove_pozadi",
+                            "priprava_na_tisk",
+                            "prukazove_foto"
+                        ],
+                        "license": "cc-by-sa-40",
+                        "links": [
+                            "#odstraneni_pozadi_pomoci_masky_vrstvy",
+                            "#orez",
+                            "#pridavame_nove_pozadi",
+                            "#priprava_na_tisk",
+                            "#prukazove_foto",
+                            "https://www.fotoradce.cz/jak-na-prukazove-fotografie-1-dil",
+                            "https://www.pexels.com/photo/smiling-blond-girl-in-front-of-a-building-17244497/",
+                            "naucse:static?filename=crop-original.jpg",
+                            "naucse:static?filename=girl.jpg",
+                            "naucse:static?filename=layer-opacity.jpg",
+                            "naucse:static?filename=mask-layer.jpg",
+                            "naucse:static?filename=print-composition-complete.jpg",
+                            "naucse:static?filename=print-composition.jpg",
+                            "naucse:static?filename=prukazove-foto-rozmery.jpg"
+                        ],
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/gimp/id-portrait-example/index.md",
+                        "title": "Cvičení: Průkazové foto",
+                        "vars": {
+                            "coach-present": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/gimp/id-portrait-example/info.yml",
+                "static_files": {
+                    "crop-original.jpg": {
+                        "path": "id-portrait-example/crop-original.jpg"
+                    },
+                    "girl.jpg": {
+                        "path": "id-portrait-example/girl.jpg"
+                    },
+                    "layer-opacity.jpg": {
+                        "path": "id-portrait-example/layer-opacity.jpg"
+                    },
+                    "mask-layer.jpg": {
+                        "path": "id-portrait-example/mask-layer.jpg"
+                    },
+                    "print-composition-complete.jpg": {
+                        "path": "id-portrait-example/print-composition-complete.jpg"
+                    },
+                    "print-composition.jpg": {
+                        "path": "id-portrait-example/print-composition.jpg"
+                    },
+                    "prukazove-foto-rozmery.jpg": {
+                        "path": "id-portrait-example/prukazove-foto-rozmery.jpg"
+                    }
+                },
+                "title": "Cvičení: Průkazové foto"
             },
             "gimp/mask-sensitive-data": {
                 "pages": {
@@ -152,6 +221,54 @@
                     }
                 },
                 "title": "Cvičení: Maskování citlivých dat"
+            },
+            "gimp/select-area-example": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
+                        ],
+                        "content": {
+                            "path": "select-area-example/index.html"
+                        },
+                        "ids": [
+                            "rychla_maska",
+                            "vyber_objektu_na_obrazku",
+                            "vyber_podle_barvy_nebo_oblasti"
+                        ],
+                        "license": "cc-by-sa-40",
+                        "links": [
+                            "#rychla_maska",
+                            "#vyber_objektu_na_obrazku",
+                            "#vyber_podle_barvy_nebo_oblasti",
+                            "https://www.cokolivokoli.cz/53399-lafitova-vyhlidka-pod-krizovou-horou/",
+                            "naucse:static?filename=dsc_3855.jpg",
+                            "naucse:static?filename=quick-mask.jpg",
+                            "naucse:static?filename=select-by-area-threshold.jpg"
+                        ],
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/gimp/select-area-example/index.md",
+                        "title": "Výběry oblastí - cvičení",
+                        "vars": {
+                            "coach-present": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/gimp/select-area-example/info.yml",
+                "static_files": {
+                    "dsc_3855.jpg": {
+                        "path": "select-area-example/dsc_3855.jpg"
+                    },
+                    "quick-mask.jpg": {
+                        "path": "select-area-example/quick-mask.jpg"
+                    },
+                    "select-by-area-threshold.jpg": {
+                        "path": "select-area-example/select-by-area-threshold.jpg"
+                    }
+                },
+                "title": "Výběry oblastí - cvičení"
             },
             "gimp/toc": {
                 "pages": {
@@ -204,7 +321,6 @@
         "place": "Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505",
         "sessions": [
             {
-                "date": "2024-10-12",
                 "materials": [
                     {
                         "lesson_slug": "gimp/gimp-setup",
@@ -218,12 +334,22 @@
                     },
                     {
                         "lesson_slug": "gimp/basic-control",
-                        "title": "Výběry oblastí, vrstvy",
+                        "title": "Seznámení s výběry oblastí, vrstvami",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "gimp/select-area-example",
+                        "title": "Výběry oblastí - cvičení",
                         "type": "lesson"
                     },
                     {
                         "lesson_slug": "gimp/mask-sensitive-data",
                         "title": "Cvičení: Maskování citlivých dat",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "gimp/id-portrait-example",
+                        "title": "Cvičení: Průkazové foto",
                         "type": "lesson"
                     }
                 ],

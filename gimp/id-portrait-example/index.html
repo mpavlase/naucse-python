@@ -1,0 +1,70 @@
+<h1 id="prukazove_foto">Průkazové foto
+<a href="#prukazove_foto" class="header-link">#</a>
+</h1>
+<p>Vyzkoušíme si upravit doma focený obrázek do podoby průkazové fotografie (např. na průkazku na autobus).</p>
+<div class="admonition warning"><p class="admonition-title">Upozornění:</p>
+<p>Pro oficiální použití (občanský průkaz, pas, ...) nejsou jakékoli úpravy a retuše přípustné.
+Naštěstí je dneska již běžné, že si vás na úřadě podle potřeby vyfotí na místě.</p>
+</div><p>Použijeme obrázek publikovaný na 
+<a href="https://www.pexels.com/photo/smiling-blond-girl-in-front-of-a-building-17244497/">https://www.pexels.com/photo/smiling-blond-girl-in-front-of-a-building-17244497/</a>
+<img src="naucse:static?filename=girl.jpg" alt="originální obrázek"></p>
+<p>Na průkazové foto je kladeno víc požadavků, hezky to je popsané na <a href="https://www.fotoradce.cz/jak-na-prukazove-fotografie-1-dil">https://www.fotoradce.cz/jak-na-prukazove-fotografie-1-dil</a>. Odkud pochází i následující obrázek s rozměry:</p>
+<p><img src="naucse:static?filename=prukazove-foto-rozmery.jpg" alt="rozměry průkazové fotografie"></p>
+<h2 id="orez">Ořez
+<a href="#orez" class="header-link">#</a>
+</h2>
+<p>Reálnou velikost budeme řešit až úplně na konec. Nejdřív vyřešíme poměr stran ořezu.</p>
+<ul>
+<li>pevný, nejsnáze <code>35:45</code> protože rozměry výsledného obrázku musí být 35x45mm. Že bude teďka reálně vzato větší nevadí, zmenšíme to až na konec.</li>
+</ul>
+<p><img src="naucse:static?filename=crop-original.jpg" alt="ořez obrázku před"></p>
+<h2 id="odstraneni_pozadi_pomoci_masky_vrstvy">Odstranění pozadí pomocí masky vrstvy
+<a href="#odstraneni_pozadi_pomoci_masky_vrstvy" class="header-link">#</a>
+</h2>
+<ul>
+<li>maska je super praktická, protože neodstraňuje pixely, jen je nezobrazí</li>
+<li>přidat masku vrstvy, <strong>bílá</strong> (full opacity)</li>
+<li>vybrat masku, aby byla aktivní</li>
+<li>kreslení <strong>černou</strong> barvou do masky "umazává" obrázek</li>
+</ul>
+<p><img src="naucse:static?filename=mask-layer.jpg" alt="maska vrstvy"></p>
+<h2 id="pridavame_nove_pozadi">Přidáváme nové pozadí
+<a href="#pridavame_nove_pozadi" class="header-link">#</a>
+</h2>
+<ul>
+<li>nová vrstva, celá bílá</li>
+<li>uspořádat vrstvy tak, aby bílá byla dole a ta s portrétem nahoře</li>
+<li>vyzkoušet si barevný přechod z modré do bílé</li>
+</ul>
+<p>Po nahrazení pozadí bílou barvou či barevným přechodem.</p>
+<p>Pomocí průhlednosti vrstev se dá pohodlně měnit množství krytí, třeba modrého přechodu.</p>
+<p><img src="naucse:static?filename=layer-opacity.jpg" alt="maska vrstvy"></p>
+<h2 id="priprava_na_tisk">Příprava na tisk
+<a href="#priprava_na_tisk" class="header-link">#</a>
+</h2>
+<p>Dnes běžným formátem tištěných fotografií je rozměr 10x15cm. Když jsme si už dali tu práci s jedním obrázkem, byla by škoda si jich rovnou nenachystat víc a pokrýt jím celou plochu fotopapíru.</p>
+<ul>
+<li>Obrázek - Duplikovat</li>
+<li>(panel Vrstvy) Zploštit</li>
+<li>zkopírovat výslednou vrstvu</li>
+</ul>
+<p>Dále si nachystáme nový obrázek pro tisk:</p>
+<ul>
+<li>Soubor - Nový...<ul>
+<li>Velikost obrázku: 150x100 mm (pozor na jednotky!)</li>
+<li>Pokročilé volby:<ul>
+<li>rozlišení 150dpi (pixelů/in) pro X a Y</li>
+<li>Vyplnit s: bílá</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>vložit (tu zploštěnou) vrstu a vytvořit z ní novou vrstvu, nekotvit! Pojmenovat tuto vrstvu: <code>portret</code> (slouží pouze pro naši lepší orientaci, není nezbytné)</li>
+<li>zmenšit vrstvu <code>portret</code> na 45x35mm (jednotky!)</li>
+<li>umístit pravítka</li>
+<li>duplikovat <code>portet</code>, sloučit dolů... opakovat podle potřeby</li>
+</ul>
+<p><img src="naucse:static?filename=print-composition.jpg" alt="příprava na tisk"></p>
+<p>Po vhodném rozložení na plochu se dostaneme této podobě:</p>
+<p><img src="naucse:static?filename=print-composition-complete.jpg" alt="nachystaný obrázek k tisku"></p>
+<p>A úplně nakonec provedeme Export od <code>jpg</code> (stačí kvalita 80%) a necháme si vytisknout v lesklé povrchové úpravě, což vyjde na zlomek ceny oproti focení u fotografa. (A na <em>takovéto domácí žvýkání</em> to stačí 😊).</p>
