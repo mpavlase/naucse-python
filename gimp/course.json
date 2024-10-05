@@ -395,16 +395,7 @@
                         "lesson_slug": "gimp/basic-control",
                         "title": "Seznámení s výběry oblastí, vrstvami",
                         "type": "lesson"
-                    }
-                ],
-                "serial": "1",
-                "slug": "materials",
-                "source_file": "courses/gimp.yml",
-                "title": "Materiály"
-            },
-            {
-                "date": "2024-10-12",
-                "materials": [
+                    },
                     {
                         "lesson_slug": "gimp/select-area-example",
                         "title": "Cvičení: Výběry oblastí",
@@ -426,10 +417,9 @@
                         "type": "lesson"
                     }
                 ],
-                "serial": "2",
-                "slug": "exercies",
+                "slug": "materials",
                 "source_file": "courses/gimp.yml",
-                "title": "Cvičení"
+                "title": "Materiály"
             }
         ],
         "source_file": "courses/gimp.yml",
