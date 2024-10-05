@@ -30,10 +30,10 @@ sessions:
   - lesson: gimp/toc
   - lesson: gimp/basic-control
 
-- slug: exercies
-  date: "2024-10-12"
-  title: 'Cvičení'
-  materials:
+    # - slug: exercies
+    #   date: "2024-10-12"
+    #   title: 'Cvičení'
+    #   materials:
   - lesson: gimp/select-area-example
   - lesson: gimp/mask-sensitive-data
   - lesson: gimp/id-portrait-example
