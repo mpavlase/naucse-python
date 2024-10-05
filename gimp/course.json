@@ -59,6 +59,64 @@
                 },
                 "title": "Seznámení s výběry oblastí, vrstvami"
             },
+            "gimp/christmas-card": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
+                        ],
+                        "content": {
+                            "path": "christmas-card/index.html"
+                        },
+                        "ids": [
+                            "odstraneni_puvodniho_textu",
+                            "vanocni_pohlednice",
+                            "vlozeni_textu",
+                            "vysledek"
+                        ],
+                        "license": "cc-by-sa-40",
+                        "links": [
+                            "#odstraneni_puvodniho_textu",
+                            "#vanocni_pohlednice",
+                            "#vlozeni_textu",
+                            "#vysledek",
+                            "https://vanocni-pohoda.cz/vanocni-prani-zdarma-ke-stazeni/",
+                            "naucse:static?filename=final.jpg",
+                            "naucse:static?filename=glow-effect.jpg",
+                            "naucse:static?filename=original.jpg",
+                            "naucse:static?filename=text-removal.jpg",
+                            "naucse:static?filename=text-removed.jpg"
+                        ],
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/gimp/christmas-card/index.md",
+                        "title": "Cvičení: Vánoční pohlednice",
+                        "vars": {
+                            "coach-present": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/gimp/christmas-card/info.yml",
+                "static_files": {
+                    "final.jpg": {
+                        "path": "christmas-card/final.jpg"
+                    },
+                    "glow-effect.jpg": {
+                        "path": "christmas-card/glow-effect.jpg"
+                    },
+                    "original.jpg": {
+                        "path": "christmas-card/original.jpg"
+                    },
+                    "text-removal.jpg": {
+                        "path": "christmas-card/text-removal.jpg"
+                    },
+                    "text-removed.jpg": {
+                        "path": "christmas-card/text-removed.jpg"
+                    }
+                },
+                "title": "Cvičení: Vánoční pohlednice"
+            },
             "gimp/gimp-setup": {
                 "pages": {
                     "index": {
@@ -249,7 +307,7 @@
                         "slug": "index",
                         "solutions": [],
                         "source_file": "lessons/gimp/select-area-example/index.md",
-                        "title": "Výběry oblastí - cvičení",
+                        "title": "Cvičení: Výběry oblastí",
                         "vars": {
                             "coach-present": true,
                             "user-gender": "f"
@@ -268,7 +326,7 @@
                         "path": "select-area-example/select-by-area-threshold.jpg"
                     }
                 },
-                "title": "Výběry oblastí - cvičení"
+                "title": "Cvičení: Výběry oblastí"
             },
             "gimp/toc": {
                 "pages": {
@@ -321,6 +379,7 @@
         "place": "Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505",
         "sessions": [
             {
+                "date": "2024-10-12",
                 "materials": [
                     {
                         "lesson_slug": "gimp/gimp-setup",
@@ -336,10 +395,19 @@
                         "lesson_slug": "gimp/basic-control",
                         "title": "Seznámení s výběry oblastí, vrstvami",
                         "type": "lesson"
-                    },
+                    }
+                ],
+                "serial": "1",
+                "slug": "materials",
+                "source_file": "courses/gimp.yml",
+                "title": "Materiály"
+            },
+            {
+                "date": "2024-10-12",
+                "materials": [
                     {
                         "lesson_slug": "gimp/select-area-example",
-                        "title": "Výběry oblastí - cvičení",
+                        "title": "Cvičení: Výběry oblastí",
                         "type": "lesson"
                     },
                     {
@@ -351,11 +419,17 @@
                         "lesson_slug": "gimp/id-portrait-example",
                         "title": "Cvičení: Průkazové foto",
                         "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "gimp/christmas-card",
+                        "title": "Cvičení: Vánoční pohlednice",
+                        "type": "lesson"
                     }
                 ],
-                "slug": "materials",
+                "serial": "2",
+                "slug": "exercies",
                 "source_file": "courses/gimp.yml",
-                "title": "Materiály"
+                "title": "Cvičení"
             }
         ],
         "source_file": "courses/gimp.yml",
