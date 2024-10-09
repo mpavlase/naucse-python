@@ -231,6 +231,55 @@
                 },
                 "title": "Cvičení: Průkazové foto"
             },
+            "gimp/individual-exercises": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Martin Pavlásek, 2024"
+                        ],
+                        "content": {
+                            "path": "individual-exercises/index.html"
+                        },
+                        "ids": [
+                            "namety_na_dalsi_zkouseni",
+                            "ruze",
+                            "starsi_pan"
+                        ],
+                        "license": "cc-by-sa-40",
+                        "links": [
+                            "#namety_na_dalsi_zkouseni",
+                            "#ruze",
+                            "#starsi_pan",
+                            "https://commons.wikimedia.org/wiki/File:Happy_Old_Man.jpg",
+                            "https://plus.unsplash.com/premium_photo-1675857197763-7e1d015ab568",
+                            "naucse:static?filename=Happy_Old_Man.jpg",
+                            "naucse:static?filename=premium_photo-1675857197763-7e1d015ab568.jpeg",
+                            "naucse:static?filename=ruze.jpg"
+                        ],
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/gimp/individual-exercises/index.md",
+                        "title": "Samostatná cvičení",
+                        "vars": {
+                            "coach-present": true,
+                            "user-gender": "f"
+                        }
+                    }
+                },
+                "source_file": "lessons/gimp/individual-exercises/info.yml",
+                "static_files": {
+                    "Happy_Old_Man.jpg": {
+                        "path": "individual-exercises/Happy_Old_Man.jpg"
+                    },
+                    "premium_photo-1675857197763-7e1d015ab568.jpeg": {
+                        "path": "individual-exercises/premium_photo-1675857197763-7e1d015ab568.jpeg"
+                    },
+                    "ruze.jpg": {
+                        "path": "individual-exercises/ruze.jpg"
+                    }
+                },
+                "title": "Samostatná cvičení"
+            },
             "gimp/mask-sensitive-data": {
                 "pages": {
                     "index": {
@@ -423,6 +472,11 @@
                     {
                         "lesson_slug": "gimp/christmas-card",
                         "title": "Cvičení: Vánoční pohlednice",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "gimp/individual-exercises",
+                        "title": "Samostatná cvičení",
                         "type": "lesson"
                     }
                 ],
