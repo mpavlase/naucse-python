@@ -31,16 +31,12 @@ Málo důležité:
 * šířka stopy
 
 # Post processing barev, jasu, ...
-* jas, kontrast (pomocí křivek)
+* jas, kontrast
+  * pomocí křivek
+  * s rychlou maskou výběru
 
 # Ovládací rozhraní
 * guides
 
 # Filtry
 * blur
-
-# Cvičení
-- zamaskovat citlivé údaje z obrázku (SPZ auta),
-- průkazové foto v domácích podmínkách - odstranění pozadí kolem obličeje,
-- pokročilé korekce jasu/kontrastu,
-- vytvoříme si osobní vánoční přání.

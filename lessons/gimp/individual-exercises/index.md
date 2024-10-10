@@ -17,3 +17,9 @@ Originál: https://plus.unsplash.com/premium_photo-1675857197763-7e1d015ab568
 ![růže před úpravou](static/premium_photo-1675857197763-7e1d015ab568.jpeg)
 
 ![růže po úpravě](static/ruze.jpg)
+
+
+### velká mapa z Mapy.cz
+* poskládat mapu "z blízka" do větší plochy, než je tvůj monitor
+
+![mapy.cz](static/mapy-cz-velka.png)
