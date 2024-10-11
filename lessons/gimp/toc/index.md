@@ -34,6 +34,7 @@ Málo důležité:
 * jas, kontrast
   * pomocí křivek
   * s rychlou maskou výběru
+  * ukázat na obrázku s úzkokolejkou
 
 # Ovládací rozhraní
 * guides
