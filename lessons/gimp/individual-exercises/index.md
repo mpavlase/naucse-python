@@ -23,3 +23,8 @@ Originál: https://plus.unsplash.com/premium_photo-1675857197763-7e1d015ab568
 * poskládat mapu "z blízka" do větší plochy, než je tvůj monitor
 
 ![mapy.cz](static/mapy-cz-velka.png)
+
+### úzkokolejka
+* [obrázek](static/madarsko.jpg) 
+* zkusit si odmazat el. vedení
+
