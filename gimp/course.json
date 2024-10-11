@@ -244,6 +244,7 @@
                             "namety_na_dalsi_zkouseni",
                             "ruze",
                             "starsi_pan",
+                            "uzkokolejka",
                             "velka_mapa_z_mapycz"
                         ],
                         "license": "cc-by-sa-40",
@@ -251,10 +252,12 @@
                             "#namety_na_dalsi_zkouseni",
                             "#ruze",
                             "#starsi_pan",
+                            "#uzkokolejka",
                             "#velka_mapa_z_mapycz",
                             "https://commons.wikimedia.org/wiki/File:Happy_Old_Man.jpg",
                             "https://plus.unsplash.com/premium_photo-1675857197763-7e1d015ab568",
                             "naucse:static?filename=Happy_Old_Man.jpg",
+                            "naucse:static?filename=madarsko.jpg",
                             "naucse:static?filename=mapy-cz-velka.png",
                             "naucse:static?filename=premium_photo-1675857197763-7e1d015ab568.jpeg",
                             "naucse:static?filename=ruze.jpg"
@@ -273,6 +276,9 @@
                 "static_files": {
                     "Happy_Old_Man.jpg": {
                         "path": "individual-exercises/Happy_Old_Man.jpg"
+                    },
+                    "madarsko.jpg": {
+                        "path": "individual-exercises/madarsko.jpg"
                     },
                     "mapy-cz-velka.png": {
                         "path": "individual-exercises/mapy-cz-velka.png"
